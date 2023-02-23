@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    height: 60px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.left-nav .log-1{
+    border: 1px solid white;
+    padding: 12px 10px;
+    margin: 15px;
+
+}
+.left-nav .log-1:hover{
+    background-color:#efefef;
+}
+
+.left-nav .log-1 .login-1{
+    color: white;
+    text-decoration: none;
+    /* padding: 20px 0px; */
+}
+.left-nav .log-1 i{
+    color: white;
+} 
+.left-nav .end-1 {
+    color: white;
+    margin: 20px;
+    /* background-color: #efefef; */
+    
+}
+.left-nav .end-1:hover{
+    background-color: #efefef;
+}
+.left-nav .end-2{
+    color: white;
+    margin: 20px;
+}
+.left-nav .end-2:hover{
+    background-color: #efefef;
+}
+
+
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+.right-nav .classify{
+    /* border: 1px solid white; */
+    margin: 5px;
+    padding: 7px 10px;
+   
+  
+    
+} 
+.right-nav .classify:hover{
+    background-color: #efefef;
+}
+.right-nav .classify a{
+    color: white;
+    text-decoration: none;
+}
+.right-nav .classify i{
+    color: white ;
+}
+.right-nav img{
+    width: 160px;
+    height: 40px;
+    margin: 15px;
+}
+
+.right-nav i{
+    color: white;
+    padding-right: 10px ;
+    margin: 10px;
+}
+
+
+/* section-start */
+
+.start .intro{
+width: 100%;
+background-image: url("hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg");
+height: 590px;
+background-size: cover;
+background-position: center;
+text-align: center;
+
+
+flex-direction: column;
+justify-content: center;
+display: flex;
+}
+
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 25px;
+    /* font-weight: bold; */
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: ;
+}
+.start .search input{
+    width: 700px;
+    height: 70px;
+    border: 1px solid #52b035;
+    padding: 10px;
+
+}
+.start .search input:focus{
+    outline: none;
+}
+
+.start {
+    position: relative;
+}
+
+                     
+.start .search a{
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 15px 24px;
+    background-color: #52b035;
+    position: absolute;
+    right: 940px ;
+    bottom: 202px;
+    
+
+}
+
+.container .paragraph{
+    font-weight: bold;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container .all-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 0pxpx; */
+    /* background-size: cover;
+    background-position: center;
+    object-fit: cover; */  
+    padding: 0  5px;
+}
+
+
+.container .all-img img{
+    width: 300px;
+    /* border: 4px solid red; */
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* padding: 0 12px; */
+    height: 160px;
+  opacity: 1;
+   
+}
+.container .all-img img:hover{
+    transform: scale(1.1);
+    /* opacity: .5; */
+}
+.container .all-img .relative{
+    position: relative;
+    margin: 10px;
+  
+}
+.relative .absolute{
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.relative .absolute-1{
+    position: absolute;
+    bottom: 50px;
+    left:105px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.relative .absolute-2{
+    position: absolute;
+    bottom: 50px;
+    left:80px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.relative .absolute-3{
+    position: absolute;
+    bottom: 50px;
+    left:80px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.relative .absolute-4{
+    position: absolute;
+    bottom: 50px;
+    left: 85px  ;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.relative .absolute-5{
+    position: absolute;
+    bottom: 50px;
+    left: 120px  ;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.relative .absolute-6{
+    position: absolute;
+    bottom: 50px;
+    left: 100px  ;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* div-main */
+.main{
+    padding: 20px 0;
+}
+.main .services-A{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 15px;
+}
+.sec-one{
+    margin: 25px 3px;
+}
+.main .services-A a{
+    text-decoration: none;
+    color: #222222;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main .services-A .input{
+    font-size: 20px;
+    color: #52b035;
+    border: 1px solid green;
+    padding: 7px 10px;
+    font-weight: lighter;
+    background-color: white;
+}
+.main .services-A .input:hover{
+    background-color: rgba(60, 230, 60, 0.582);
+}
+
+.main .services-B{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 8px;
+}
+
+.main .services-B a{
+    text-decoration: none;
+    
+}
+.main .services-B img{
+    width: 300px;
+    height: 100%;
+}
+.main .services-B p{
+    font-size:14px;
+    color: #222222;
+    text-decoration: none;
+    margin: 10px;
+    /* font-weight: bold; */
+
+}
+.main .services-B p:hover{
+    color: #52b035;
+}
+.main .services-B  h3{
+    font-size: 12px;
+    font-family: serif;
+    color: #777777;
+    padding: 5px 0;
+}
+.main .services-B span{
+    color:#222222 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* div-last */
+.last{
+    background-color: #e4dddd;
+    /* margin: 20px; */
+}
+
+.last div h1{
+    padding: 40px;
+    font-size: 25px;
+    
+
+}
+
+
+
+.last .categeaory{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.last a{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.last .categeaory p a{
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: black;
+}
